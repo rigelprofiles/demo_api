@@ -29,7 +29,7 @@ app.get('/candidate/:candName', async (req, res) => {
   const name = req.params.candName;
   console.log(name);
 
-  // Create a Knex.js instance
+  // Create a Knex.js instance test
   const knexInstance = knex(knexConfig);
 
   // Query the database
